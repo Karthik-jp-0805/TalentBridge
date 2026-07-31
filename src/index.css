@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Tiger Analytics & PepsiCo Brand Overrides */
+.bg-pepsi-blue { background-color: #28458E !important; }
+.text-pepsi-blue { color: #28458E !important; }
+.border-pepsi-blue { border-color: #28458E !important; }
+.focus\:border-pepsi-blue:focus { border-color: #28458E !important; }
+.focus\:ring-pepsi-blue:focus { --tw-ring-color: #28458E !important; }
+
+.bg-tiger-orange { background-color: #F58E1D !important; }
+.text-tiger-orange { color: #F58E1D !important; }
+
+.bg-warm-bronze { background-color: #AA735E !important; }
+
+.bg-brand-gradient {
+  background-image: linear-gradient(135deg, #F58E1D 0%, #28458E 100%) !important;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-in-right {
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

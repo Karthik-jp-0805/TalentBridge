@@ -1,0 +1,33 @@
+TalentBridge_Figma_29 July
+├── AGENTS.md
+├── CLAUDE.md
+├── Public
+│   └── assets
+│       ├── Pepsico Logo.png
+│       └── Tiger Analytics Logo.png
+├── index.html
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── src
+│   ├── App.tsx
+│   ├── api.ts
+│   ├── components
+│   │   ├── admin
+│   │   ├── client
+│   │   └── shared
+│   ├── index.css
+│   ├── main.tsx
+│   ├── pages
+│   │   └── LoginPage.tsx
+│   ├── services
+│   │   ├── emailService.ts
+│   │   └── sheetsService.ts
+│   ├── store
+│   │   ├── appStore.ts
+│   │   ├── miniToast.ts
+│   │   └── toastStore.ts
+│   └── vite-env.d.ts
+├── structure.txt
+├── tsconfig.json
+└── vite.config.ts
